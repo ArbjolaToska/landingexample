@@ -1,0 +1,290 @@
+
+
+html, body {
+	text-rendering: optimizeLegibility!important;
+    -webkit-font-smoothing: antialiased!important;
+	z-index: 1;
+}
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+  	padding: 0;
+}
+
+body {
+	display: block;
+	line-height: 1.231;
+	font-family: 'arial', helvetica, sans-serif;
+	background-color: #6c1d19;
+	color: #999;
+	margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+	z-index: 1;
+}
+
+.registration-container{
+	float: left;
+	margin-left: 15%;
+	width: 28%;
+	max-width: 400px;
+	background-color: #e8dada;
+	opacity: 0.9;
+	padding: 0px 12px 15px 12px;
+	margin-top: 50px;
+	margin-bottom: 48px;
+	z-index: 300;
+	position: absolute;
+}
+
+.card{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+
+h1 {
+	color: #313131;
+    font-weight: bolder;
+    font-size: 18px;
+    line-height: 1.4;
+    margin-top: -20px;
+    padding: 0px 0px 13px 0;
+}
+
+h2{
+	color: #313131;
+	font-weight: bold;
+	font-size: 15px;
+	line-height: 1.4;
+	padding-bottom: 8px;
+}
+
+p {
+	color: #999;
+	font-size: 12px;
+	line-height: 1.4;
+	padding: 10px 0 10px 0;
+}
+
+ol{
+	margin-left: 20px;
+	margin-right: 10px;
+	padding: 10px 0px 10px 0px; 
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+	font-size: 11px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+label{
+	color: #313131;
+	text-transform: capitalize;
+	display: block;
+    padding-bottom: 0.25em;
+}
+
+input, select{
+  display: block;
+  font-size: 1.2em;
+  padding: 0.25em;
+  width: 100%;
+  margin-bottom:10px;
+  height: 30px;
+  border-radius: 0px;
+  border: 1px solid #BABABA;
+}
+
+.privacy-policy input{
+	float: left;
+	margin-bottom: 0px;
+    width: 13px;
+    height: 13px;
+}
+
+.privacy-policy label{
+	font-size: 11px;
+	line-height: 1.6;
+	font-weight: 500;
+}
+
+button{
+	width: 100%;
+	font-size: 12px;
+	color: #fff;
+	text-transform: capitalize;
+	border: 0px;
+	padding: 10px;
+	font-weight: bold;
+	background-color: #323131;
+	margin: 20px auto 20px auto;
+}
+
+@-webkit-keyframes bg {
+    	0% {background-image: url(/Assets/M.png);}
+	10% {background-image: url(/Assets/W.png);}
+	20% {background-image: url(/Assets/M.png);}
+	30% {background-image: url(/Assets/W.png);}
+	40% {background-image: url(/Assets/M.png);}
+	50% {background-image: url(/Assets/W.png);}
+	60% {background-image: url(/Assets/M.png);}
+	70% {background-image: url(/Assets/W.png);}
+	80% {background-image: url(/Assets/M.png);}
+	90% {background-image: url(/Assets/W.png);}
+	100% {background-image: url(/Assets/M.png);}
+}
+
+@-moz-keyframes bg {
+   	0% {background-image: url(/Assets/M.png);}
+	10% {background-image: url(/Assets/W.png);}
+	20% {background-image: url(/Assets/M.png);}
+	30% {background-image: url(/Assets/W.png);}
+	40% {background-image: url(/Assets/M.png);}
+	50% {background-image: url(/Assets/W.png);}
+	60% {background-image: url(/Assets/M.png);}
+	70% {background-image: url(/Assets/W.png);}
+	80% {background-image: url(/Assets/M.png);}
+	90% {background-image: url(/Assets/W.png);}
+	100% {background-image: url(/Assets/M.png);}
+}
+
+@-o-keyframes bg {
+   	0% {background-image: url(/Assets/M.png);}
+	10% {background-image: url(/Assets/W.png);}
+	20% {background-image: url(/Assets/M.png);}
+	30% {background-image: url(/Assets/W.png);}
+	40% {background-image: url(/Assets/M.png);}
+	50% {background-image: url(/Assets/W.png);}
+	60% {background-image: url(/Assets/M.png);}
+	70% {background-image: url(/Assets/W.png);}
+	80% {background-image: url(/Assets/M.png);}
+	90% {background-image: url(/Assets/W.png);}
+	100% {background-image: url(/Assets/M.png);}
+}
+
+@keyframes bg {
+	0% {background-image: url(/Assets/M.png);
+	background-repeat:no-repeat;}
+	10% {background-image: url(/Assets/W.png);
+	background-repeat:no-repeat;}
+	20% {background-image: url(/Assets/M.png);
+	background-repeat:no-repeat;}
+	30% {background-image: url(/Assets/W.png);
+	background-repeat:no-repeat;}
+	40% {background-image: url(/Assets/M.png);
+	background-repeat:no-repeat;}
+	50% {background-image: url(/Assets/W.png);
+	background-repeat:no-repeat;}
+	60% {background-image: url(/Assets/M.png);
+	background-repeat:no-repeat;}
+	70% {background-image: url(/Assets/W.png);
+	background-repeat:no-repeat;}
+	80% {background-image: url(/Assets/M.png);
+	background-repeat:no-repeat;}
+	90% {background-image: url(/Assets/W.png);
+	background-repeat:no-repeat;}
+	100% {background-image: url(/Assets/M.png);
+	background-repeat:no-repeat;}
+}
+
+.bg-image {
+	background: url(/Assets/M.png) no-repeat;
+    background-position: bottom;
+    position: absolute;
+    background-size: contain;
+    width: 100%;
+	min-height: 100%;
+    margin: 0 auto;
+    top: 100px;
+    bottom: 0;
+    z-index: 2;
+    animation-name: bg;
+    -webkit-animation: bg 30s infinite step-end; /* Safari 4.0 - 8.0 */
+    animation: bg 30s infinite step-end;
+	-moz-transition:  bg 30s infinite step-end;
+	-webkit-transition:  bg 30s infinite step-end;
+	-o-transition: bg 30s infinite step-end;
+	transition:  bg 30s infinite step-end;
+}
+
+#left{
+    width:30%;
+    height: 100%;
+    float:left;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1280px) {
+	
+	.registration-container{
+	margin-left: 20%;
+	width: 64%;
+	}
+	
+	.bg-image {
+    position: fixed;
+    width: 63%;
+    height: 100%;
+    left: 25%;
+    margin: 0 auto;
+}
+	
+}
+
+@media screen and (min-width:2000px)/*Kindle Fire*/{
+	
+	.registration-container{
+    margin-left: 27%;
+	max-width: 500px;
+    margin-top: 280px;
+    margin-bottom: 48px;
+	}
+	
+	.bg-image{
+	position: absolute;
+    display: block;
+    background-size: contain;
+    width: 70%;
+    height: auto;
+    left: 28%;
+    top: 300px;
+    bottom: 0;
+	}
+}
+
+@media screen and (min-width:600px) and (max-width:800px) and (orientation: portrait) {
+	.registration-container{
+	width: 60%;
+    left: 20%;
+    margin: 0 auto;
+    top: 10%;
+	}
+	
+	.bg-image{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    left: 0;
+	}
+}
+
+@media screen and (max-width:768px){
+	
+	.registration-container{
+	width: 90%;
+    left: 5%;
+	margin-left: 0px;
+	max-width: none;
+    top: 5%;
+	}
+	.bg-image{display: none;}
+}
